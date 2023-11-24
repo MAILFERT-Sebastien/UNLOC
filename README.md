@@ -54,7 +54,7 @@ Sébastien Mailfert, Jérôme Touvier, Lamia Benyoussef, Roxane Fabre, Asma Raba
 N.B. and D.M. supervised the study and conceived the project. S. Mailfert, A.R., L.B., J.T., and N.B. developed the algorithms and performed the simulations. S.B., S. Mailfert, and S. Monneret designed the optical bench. R.F., M.-C.B., and Y.H. performed experimental observations. And all authors contributed to the interpretation of the data. N.B., S. Mailfert, and D.M. wrote the manuscript.
 
 ## Licence
-Please read an agrre the "SOFTWARE LICENSE FOR RESEARCH USE.pdf" file
+Please read an agree the "SOFTWARE LICENSE FOR RESEARCH USE.pdf" file
 
 
 ## Acknowledgments
