@@ -6,17 +6,49 @@ UNLOC: UNsupervised particle LOCalization
 [Mailfert et al. Biophys.J, 2018] A Theoretical High-Density Nanoscopy Study Leads to the Design of UNLOC, a Parameter-free Algorithm
 
 ## Aim
+As an open-source and user-friendly Fiji plugin, UNLOC is designed for processing SMLM data.
+UNLOC is available for Windows, Linux and Mac OS.
+UNLOC generates a list of single-molecule localizations with their respective precisions, allowing the reconstruction of super-resolution images.
+UNLOC is robust on data with high density of particles/frame, large differences of SNR and variation of spatio-temporal background. UNLOC is well adapted to analyze stacks of images acquired at the same focal plane (2D), with performances close to the CRB.
+As an effective unsupervised algorithm, UNLOC requires only the size of the point spread function (PSF) of the optical setup used for the data acquisition or for the generation of synthetic data.
 
 
 ## Prerequisites
+UNLOC only needs two software (see the installation procedure below):
+- Fiji (or ImageJ)
+- A matlab compiler runtime (CMR)
+
+Disable the multi-thread option in the BIOS to optimize the speed of analysis.
+
+UNLOC has been tested on the following operating systems:
+* Windows 7 (SP1) / 8 / 8.1 / 10 / 11.
+* OS X Yosemite (10.10) / El Capitan (10.11) / Sierra (10.12).
+* Linux Ubuntu ($\geq$ 14.04) / Mint ($\geq$ 17).
+
+Since the processing of SMLM data used to be computationally demanding, we recommend to use a computer with high amount of RAM (at least 8 GB) and a processor with a high number of cores. For instance, UNLOC has been tested on a DELL Precision T1700, Intel Core i7-4770 CPU at 3.4 GHz, with 64 GB with Windows 10 (64-bit).
 
 
-## Installing
+## Installing: just 3 steps !!!
+
+1. Fiji
+
+To download its latest version, visit its website [here](https://imagej.net/Fiji/Downloads) [Schneideret al., Nat. Meth., 2012].
+
+For help with Fiji, please consult its official website. Please check that your Fiji software and Java are up-to-date. In Fiji, the subdirectory "java" must contain a recent JDK version (> 1.8).
+
+2. Matlab Compiler Runtime
+   
+Download the MCR 2023a, version 9.14 which corresponds to your operating system is available [here](https://www.mathworks.com/products/compiler/mcr.html?s_tid=srchtitle). Install the MCR following the Matlab instructions.
+
+3. UNLOC
+
+Copy/paste the UNLOC plugin ("UNLOC\_2.3.jar" and the associated "UNLOC" folder) into the "plugins" folder of Fiji  (for example C:\Fiji.app\plugins\).
 
 
 ## Running the tests
 
 ## Versioning
+v2.2
 
 ## Authors
 Sébastien Mailfert, Jérôme Touvier, Lamia Benyoussef, Roxane Fabre, Asma Rabaoui, Marie-Claire Blache, Yannick Hamon, Sophie Brustlein, Serge Monneret, Didier Marguet, Nicolas Bertaux
@@ -24,6 +56,8 @@ Sébastien Mailfert, Jérôme Touvier, Lamia Benyoussef, Roxane Fabre, Asma Raba
 N.B. and D.M. supervised the study and conceived the project. S. Mailfert, A.R., L.B., J.T., and N.B. developed the algorithms and performed the simulations. S.B., S. Mailfert, and S. Monneret designed the optical bench. R.F., M.-C.B., and Y.H. performed experimental observations. And all authors contributed to the interpretation of the data. N.B., S. Mailfert, and D.M. wrote the manuscript.
 
 ## Licence
+Please read an agrre the "SOFTWARE LICENSE FOR RESEARCH USE.pdf" file
+
 
 ## Acknowledgments
 We acknowledge Marc Allain, Sophie Brasselet, Hai-Tao He, Hervé Rigneault, and Muriel Roche for their critical reading of the manuscript and Emily Witty (AngloScribe) for language editing. We thank Christophe Leterrier for valuable discussions and Florian Levet for his advice on the SR-Tesseler analysis.
