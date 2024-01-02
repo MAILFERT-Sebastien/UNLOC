@@ -41,8 +41,11 @@ For help with Fiji, please consult its official website. Please check that your 
 Download the MCR 2017a, version 9.2 which corresponds to your operating system is available [here](https://www.mathworks.com/products/compiler/mcr.html?s_tid=srchtitle). Install the MCR following the Matlab instructions.
 
 3. UNLOC
+<ul>
+<li> Test <\li>
+<\ul>
 
-Copy/paste the UNLOC plugin ("UNLOC\_2.2.jar" and the associated "UNLOC" folder) into the "plugins" folder of Fiji  (for example C:\Fiji.app\plugins\).
+Copy/paste the UNLOC plugin ("UNLOC\_2.2.jar" and the associated "UNLOC.zip" folder) into the "plugins" folder of Fiji  (for example C:\Fiji.app\plugins\).
 
 [![Watch the video](https://github.com/MAILFERT-Sebastien/UNLOC/blob/main/Images/UNLOC_1.png)]([https://www.youtube.com/watch?v=5JKW7ERvdkI](https://www.youtube.com/watch?v=5JKW7ERvdkI))
 
