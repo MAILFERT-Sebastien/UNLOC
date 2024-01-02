@@ -14,7 +14,7 @@ As an effective unsupervised algorithm, UNLOC requires only the size of the poin
 ## Prerequisites
 UNLOC only needs two software (see the installation procedure below):
 - Fiji (or ImageJ)
-- A matlab compiler runtime (CMR)
+- A matlab compiler runtime (MCR)
 
 Disable the multi-thread option in the BIOS to optimize the speed of analysis.
 
@@ -34,16 +34,40 @@ To download its latest version, visit its website [here](https://imagej.net/Fiji
 
 For help with Fiji, please consult its official website. Please check that your Fiji software and Java are up-to-date. In Fiji, the subdirectory "java" must contain a recent JDK version (> 1.8).
 
+
+
 2. Matlab Compiler Runtime
    
-Download the MCR 2023a, version 9.14 which corresponds to your operating system is available [here](https://www.mathworks.com/products/compiler/mcr.html?s_tid=srchtitle). Install the MCR following the Matlab instructions.
+Download the MCR 2017a, version 9.2 which corresponds to your operating system is available [here](https://www.mathworks.com/products/compiler/mcr.html?s_tid=srchtitle). Install the MCR following the Matlab instructions.
 
 3. UNLOC
 
-Copy/paste the UNLOC plugin ("UNLOC\_2.3.jar" and the associated "UNLOC" folder) into the "plugins" folder of Fiji  (for example C:\Fiji.app\plugins\).
+Copy/paste the UNLOC plugin ("UNLOC\_2.2.jar" and the associated "UNLOC" folder) into the "plugins" folder of Fiji  (for example C:\Fiji.app\plugins\).
 
+[![Watch the video](https://github.com/MAILFERT-Sebastien/UNLOC/blob/main/Images/UNLOC_1.png)]([https://www.youtube.com/watch?v=5JKW7ERvdkI](https://www.youtube.com/watch?v=5JKW7ERvdkI))
 
 ## Running the tests
+
+#2 | UNLOC: PSF size determination
+[![Watch the video](https://github.com/MAILFERT-Sebastien/UNLOC/blob/main/Images/UNLOC_2.png)]([https://www.youtube.com/watch?v=eUesmBXYbqA](https://www.youtube.com/watch?v=eUesmBXYbqA))
+
+
+#3 | UNLOC: a simple example on simulated data
+[![Watch the video](https://github.com/MAILFERT-Sebastien/UNLOC/blob/main/Images/UNLOC_3.png)]([https://www.youtube.com/watch?v=AfKZNcJovx0](https://www.youtube.com/watch?v=AfKZNcJovx0))
+
+
+#4 | UNLOC: a simple example on a DNA-PAINT dataset
+[![Watch the video](https://github.com/MAILFERT-Sebastien/UNLOC/blob/main/Images/UNLOC_4.png)]([https://www.youtube.com/watch?v=SEu8VFmdj5Q](https://www.youtube.com/watch?v=SEu8VFmdj5Q))
+
+
+#5 | UNLOC: batch mode to analyze multiple files & folders automatically
+[![Watch the video](https://github.com/MAILFERT-Sebastien/UNLOC/blob/main/Images/UNLOC_5.png)]([https://www.youtube.com/watch?v=3EJgBsAiJYk](https://www.youtube.com/watch?v=3EJgBsAiJYk))
+
+
+#6 | UNLOC: how to use the debug mode?
+[![Watch the video](https://github.com/MAILFERT-Sebastien/UNLOC/blob/main/Images/UNLOC_6.png)]([https://www.youtube.com/watch?v=AQrCPhSbxLE](https://www.youtube.com/watch?v=AQrCPhSbxLE))
+
+
 
 ## Versioning
 v2.2
