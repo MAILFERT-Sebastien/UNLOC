@@ -17,9 +17,9 @@ As an open-source and user-friendly Fiji plugin, UNLOC is designed for processin
       <li> v2.2 (2020): updated version of the java plugin code, UNLOC is identical to the published version</li>
       <li> v2.3 (2020): the RAW data from PCO cameras are now being processed</li>
       <li> v2.4 (2024-03): private version</li>
-      <li> v2.5 (2024-04): updated version of the java plugin code, UNLOC is identical to the published version</li>
-      <li> v2.51 (2024-04): the RAW data from PCO cameras are once again being processed, UNLOC is identical to the published version</li>
-      <li> v2.52 (2024-08): updated version of the java plugin code, simplified graphical user interface, UNLOC is identical to the published version</li>
+      <li> v2.5 (2024-04): updated version of the java plugin code</li>
+      <li> v2.51 (2024-04): the RAW data from PCO cameras are once again being processed</li>
+      <li> v2.52 (2024-08): updated version of the java plugin code, simplified graphical user interface, corrected problem with nd2 files (if your nd2 files are not processed, please convert them to tiff!)</li>
       </ul>
 
 ## Prerequisites
