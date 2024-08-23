@@ -3,13 +3,12 @@
 
 [Mailfert et al. Biophys.J, 2018](https://www.cell.com/biophysj/fulltext/S0006-3495(18)30761-6) A Theoretical High-Density Nanoscopy Study Leads to the Design of UNLOC, a Parameter-free Algorithm
 
+[![Watch the video](https://github.com/MAILFERT-Sebastien/UNLOC/blob/main/Images/UNLOC_7.png)](https://youtu.be/hlHCQPL3Em8)
+
+
 
 ## Aim
-As an open-source and user-friendly Fiji plugin, UNLOC is designed for processing SMLM data.
-UNLOC is available for Windows, Linux and Mac OS.
-UNLOC generates a list of single-molecule localizations with their respective precisions, allowing the reconstruction of super-resolution images.
-UNLOC is robust on data with high density of particles/frame, large differences of SNR and variation of spatio-temporal background. UNLOC is well adapted to analyze stacks of images acquired at the same focal plane (2D), with performances close to the CRB.
-As an effective unsupervised algorithm, UNLOC requires only the size of the point spread function (PSF) of the optical setup used for the data acquisition or for the generation of synthetic data.
+As an open-source and user-friendly Fiji plugin, UNLOC is designed for processing SMLM data. UNLOC generates a list of single-molecule localizations with their respective precisions, allowing the reconstruction of super-resolution images. UNLOC is robust on data with high density of particles/frame, large differences of SNR and variation of spatio-temporal background. As an effective unsupervised algorithm, UNLOC requires only the size of the point spread function (PSF) of the optical setup used for the data acquisition or for the generation of synthetic data.
 
 ## Versioning
 
@@ -24,19 +23,9 @@ As an effective unsupervised algorithm, UNLOC requires only the size of the poin
       </ul>
 
 ## Prerequisites
-UNLOC only needs two software (see the installation procedure below):
-- Fiji (or ImageJ)
+UNLOC only needs two free software (see the installation procedure below):
+- Fiji
 - A matlab compiler runtime (MCR)
-
-Disable the multi-thread option in the BIOS to optimize the speed of analysis.
-
-UNLOC has been tested on the following operating systems:
-* Windows 7 (SP1) / 8 / 8.1 / 10 / 11.
-* OS X Yosemite (10.10) / El Capitan (10.11) / Sierra (10.12).
-* Linux Ubuntu ($\geq$ 14.04) / Mint ($\geq$ 17).
-
-Since the processing of SMLM data used to be computationally demanding, we recommend to use a computer with high amount of RAM (at least 8 GB) and a processor with a high number of cores. For instance, UNLOC has been tested on a DELL Precision T1700, Intel Core i7-4770 CPU at 3.4 GHz, with 64 GB with Windows 10 (64-bit).
-
 
 ## Installing: just 3 steps !!!
 [![Watch the video](https://github.com/MAILFERT-Sebastien/UNLOC/blob/main/Images/UNLOC_0.png)](https://youtu.be/5JKW7ERvdkI)
@@ -44,10 +33,6 @@ Since the processing of SMLM data used to be computationally demanding, we recom
 1. Fiji
 
 To download its latest version, visit its website [here](https://imagej.net/Fiji/Downloads) [Schneideret al., Nat. Meth., 2012].
-
-For help with Fiji, please consult its official website. Please check that your Fiji software and Java are up-to-date. In Fiji, the subdirectory "java" must contain a recent JDK version (> 1.8).
-
-
 
 2. Matlab Compiler Runtime
    
