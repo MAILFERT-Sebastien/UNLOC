@@ -1,4 +1,4 @@
-# UNLOC:  UNsupervised particle LOCalization
+# SMLM at high density / UNLOC:  UNsupervised particle LOCalization
 [ImageJ] Single Molecule Localization Microscopy (SMLM) plugin: UNLOC
 
 [Mailfert et al. Biophys.J, 2018](https://www.cell.com/biophysj/fulltext/S0006-3495(18)30761-6) A Theoretical High-Density Nanoscopy Study Leads to the Design of UNLOC, a Parameter-free Algorithm
