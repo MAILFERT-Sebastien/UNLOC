@@ -39,7 +39,9 @@ UNLOC only requires two free software tools (see the installation procedure belo
 [![Watch the video](https://github.com/MAILFERT-Sebastien/UNLOC/blob/main/Images/UNLOC_0.png)](https://youtu.be/5JKW7ERvdkI)
 
 ### 1. Fiji
-Download the latest version from its official website [here](https://imagej.net/Fiji/Downloads) ([Schneider et al., Nat. Meth., 2012]).
+1. Download the latest version from its official website [here](https://imagej.net/Fiji/Downloads) ([Schneider et al., Nat. Meth., 2012])
+2. Unzip it
+3. Copy the content of the unzipped folder into your harddrive (e.g. `C:\Fiji.app\`)
 
 ### 2. MATLAB Compiler Runtime
 Download MCR 2024a (version 24.1) for your operating system [here](https://www.mathworks.com/products/compiler/mcr.html?s_tid=srchtitle). Follow the MATLAB installation instructions.
@@ -48,7 +50,7 @@ Download MCR 2024a (version 24.1) for your operating system [here](https://www.m
 
 1. Go to the *UNLOC_plugin folder*.
 2. Download the *UNLOC.zip* file and unzip its contents.
-3. Copy the entire folder named *UNLOC* into Fiji's *Plugins* directory (e.g., `C:\Fiji.app\plugins\`).
+3. Copy the entire folder named *UNLOC* into Fiji's *Plugins* directory (e.g., `C:\Fiji.app\plugins\`) (be sure to copy only *UNLOC* and not UNLOC\UNLOC\)
 4. Download the *UNLOC_v2.52.jar* file and place it in the *Plugins* directory.
 
 ![Fiji folder](https://github.com/MAILFERT-Sebastien/UNLOC/blob/main/Images/UNLOC_Fiji.png)
