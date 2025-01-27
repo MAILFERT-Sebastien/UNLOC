@@ -93,10 +93,10 @@ Download MCR 2024a (version 24.1) for your operating system [here](https://www.m
 - Didier Marguet
 - Nicolas Bertaux
 
-### Updates and Current Developments
+### Updates and Current and Future Developments
 - Sébastien Mailfert
 - Nicolas Bertaux
-  - With the kind and valuable help of Jérôme Touvier
+- Jérôme Touvier
 
 ---
 
